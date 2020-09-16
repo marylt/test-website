@@ -14,12 +14,22 @@ html, body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
-    background-color: #ADD8E6;
+    background-color: #A1937A;
   }
   
   /* || typography */
   
-  h1, h2, h3 {
+  .header{
+    font-family: 'Dosis', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    color: #2a2a2a;
+  }
+  
+  h2, h3 {
     font-family: 'Dosis', sans-serif;
     color: #2a2a2a;
   }
@@ -64,7 +74,12 @@ html, body {
     padding: 1%;
   }
   
-  .main, .header, .article, .aside, .footer, section {
+  .header {
+    background-color: #8A94A1;
+    padding: 1%;
+  }
+
+  .main, .article, .aside, section {
     background-color: #F0F8FF;
     padding: 1%;
   }
@@ -76,7 +91,7 @@ html, body {
   
   .header img {
     display: block;
-    height: 60px;
+    width: 50%;
     padding-top: 20.15px;
   }
   
@@ -102,10 +117,6 @@ html, body {
   }
   
   .aside img {
-    width: 100%;
+    width: 50%;
     height: auto;
-  }
-  
-  .footer {
-    margin-top: 10px;
   }
